@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!--
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+-->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src='linkers/addFace.js' type='text/javascript'></script>
+
+
+
+    <meta charset="utf-8">
+    <title>AddImage</title>
+    <h5 align = "left">Powered by Python</h5>
+    <h5 align = "left">Rendered with HTML and JavaScript</h5>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Add an Image</h1>
+        <img style="width:30%" src="folder.png" align = "center"/>
+      </div>
+      </div>
+      </head>
+  <body>
+    <br>
+    <label>Upload your image here!</label>
+    <input id="Image" type="file" placeholder="Image"/>
+    <label>Choose your images' emotion here!</label>
+    <br>
+    <select id="emotion">
+      <option value="0">Angry</option>
+      <option value="1">Disgust</option>
+      <option value="2">Fear</option>
+      <option value="3">Happy</option>
+      <option value="4">Sad</option>
+      <option value="5">Suprise</option>
+      <option value="6">Neutral</option>
+      </select>
+    <button class="btn btn-success" onclick="add_Face()">Go!</button>
+
+  </body>
+</html>
